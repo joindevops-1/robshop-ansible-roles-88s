@@ -2,4 +2,4 @@
   ansible.builtin.command: echo "Hello World"
 
 - name: failure
-  ansible.builtin.commadnd: echo "Failure"
+  ansible.builtin.command: echo "Failure"
