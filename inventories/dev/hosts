@@ -1,32 +1,32 @@
 [mongodb]
-mongodb-dev.daws86s.fun
+mongodb-dev.daws88s.online
 
 [redis]
-redis-dev.daws86s.fun
+redis-dev.daws88s.online
 
 [mysql]
-mysql-dev.daws86s.fun
+mysql-dev.daws88s.online
 
 [rabbitmq]
-rabbitmq-dev.daws86s.fun
+rabbitmq-dev.daws88s.online
 
 [catalogue]
-catalogue-dev.daws86s.fun
+catalogue-dev.daws88s.online
 
 [cart]
-cart-dev.daws86s.fun
+cart-dev.daws88s.online
 
 [user]
-user-dev.daws86s.fun
+user-dev.daws88s.online
 
 [shipping]
-shipping-dev.daws86s.fun
+shipping-dev.daws88s.online
 
 [payment]
-payment-dev.daws86s.fun
+payment-dev.daws88s.online
 
 [frontend]
-frontend-dev.daws86s.fun
+frontend-dev.daws88s.online
 
 [local]
 localhost
