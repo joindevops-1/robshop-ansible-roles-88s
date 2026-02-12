@@ -2,4 +2,4 @@
   ansible.builtin.command: echo "Hello World"
 
 - name: failure
-  ansible.builtin.command: exit 1
+  ansible.builtin.commadnd: exit 1
