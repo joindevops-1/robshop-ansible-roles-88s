@@ -1,9 +1,10 @@
 - name: include vs import
   hosts: local
   connection: local
-  env: dev
+  
   vars:
     install_db: true
     install_app: false
+    env: dev
   roles:
   - include-vs-import
