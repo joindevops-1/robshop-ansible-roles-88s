@@ -1,0 +1,5 @@
+- name: success
+  ansible.builtin.command: echo "Hello World"
+
+- name: failure
+  ansible.builtin.command: exit 1
