@@ -1,7 +1,19 @@
-- name: testing include vs import
-  ansible.builtin.debug:
-    msg: "Hi"
+# - name: testing include vs import
+#   ansible.builtin.debug:
+#     msg: "Hi"
 
-- name: testing include vs import again
-  ansible.builtin.debug:
-      msg: "Hello"
+# - name: testing include vs import again
+#   ansible.builtin.debug:
+#       msg: "Hello"
+
+- name: Task 1
+  debug:
+    msg: "I am task 1 inside role"
+
+- name: Task 2
+  debug:
+    msg: "I am task 2 inside role"
+
+- name: Task 3
+  debug:
+    msg: "I am task 3 inside role"

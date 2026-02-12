@@ -2,4 +2,4 @@
   ansible.builtin.include_role:
     name: common
     tasks_from: import-test.yaml
-  when: ansible_os_family == "RedHat"
+  when: false
