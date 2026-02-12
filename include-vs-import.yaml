@@ -1,5 +1,8 @@
 - name: include vs import
   hosts: local
   connection: local
+  vars:
+    install_db: true
+    install_app: false
   roles:
   - include-vs-import
