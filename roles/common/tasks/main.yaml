@@ -1,0 +1,3 @@
+- name: common executed first
+  debug:
+    msg: "Hello, I am first"
