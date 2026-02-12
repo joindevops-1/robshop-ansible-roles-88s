@@ -1,5 +1,7 @@
-- name: success
-  ansible.builtin.command: echo "Hello World"
+- name: testing include vs import
+  ansible.builtin.debug:
+    msg: "Hi"
 
-- name: failure
-  ansible.builtin.command: echo "Failure"
+- name: testing include vs import again
+  ansible.builtin.debug:
+      msg: "Hello"
