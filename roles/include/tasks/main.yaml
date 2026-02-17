@@ -4,3 +4,6 @@
     name: common
     tasks_from: include-import.yaml
   when: os_family == "RedHat"
+  loop: 
+  - Ramesh
+  - Suresh

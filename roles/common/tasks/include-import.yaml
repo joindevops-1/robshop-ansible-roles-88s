@@ -1,6 +1,6 @@
 - name: message1
   ansible.builtin.debug:
-    msg: "Hello Message-1"
+    msg: "Hello Message-1 {{ item }}"
 
 - name: setting fact
   ansible.builtin.set_fact:
