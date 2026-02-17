@@ -1,0 +1,1 @@
+MYSQL_ROOT_PASSWORD: "{{ lookup('amazon.aws.ssm_parameter', '/expense/dev/mysql/root_password', decrypt=true, region='us-east-1') }}"
