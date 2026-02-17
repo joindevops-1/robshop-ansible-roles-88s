@@ -1,10 +1,2 @@
 dependencies:
-- role: mongodb
-- role: redis
-- role: mysql
-- role: rabbitmq
-- role: catalogue
-- role: user
-- role: cart
-- role: shipping
-- role: payment
+- role: common
