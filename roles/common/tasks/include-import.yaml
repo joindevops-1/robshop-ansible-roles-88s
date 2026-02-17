@@ -3,7 +3,7 @@
     msg: "Hello Message-1 {{ item }}"
 
 - name: setting fact
-  ansible.builtin.set_fact:
+  ansible.builtinn.set_fact:
     os_family: "debian"
 
 - name: message2
