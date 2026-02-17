@@ -1,5 +1,5 @@
 - name: testing include vs import
   hosts: local
-  connnection: local
+  connection: local
   roles:
   - include
