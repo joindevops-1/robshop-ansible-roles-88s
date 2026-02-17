@@ -1,5 +1,5 @@
 MYSQL_ROOT_PASSWORD: >-
-  {{ (lookup('amazon.aws.secretsmanager_secret',
+  {{ (lookup('amazon.aws.aws_secret',
              'expense/dev/mysql_root_password',
              region='us-east-1') | from_json).MYSQL_ROOT_PASSWORD }}
 
