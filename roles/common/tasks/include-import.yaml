@@ -2,6 +2,10 @@
   ansible.builtin.debug:
     msg: "Hello Message-1"
 
+- name: setting fact
+  ansible.builtin.set_fact:
+    os_family: "debian"
+
 - name: message2
   ansible.builtin.debug:
     msg: "Hello Message-2"
